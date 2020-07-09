@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/nodejs
     docker:
-      - image: circleci/node:6-stretch
+      - image: circleci/node:8-stretch
     steps:
       - checkout
       #- run:
